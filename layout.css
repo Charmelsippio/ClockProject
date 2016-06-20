@@ -1,0 +1,52 @@
+body {
+	background-color: greenyellow;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-family: "Orbitron", sans-serif;
+}
+
+#clockFace {
+	position: relative;
+	background-color: indigo;
+	border: 4px dashed white;
+	height: 500px;
+	width: 950px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 80px;
+}
+
+#hours{
+	position: absolute;
+	padding-left: 60px;
+	color: white;
+	font-size: 230px;
+	bottom: -125px;
+}
+
+#minutes {
+	position: absolute;
+	float: left;
+	font-size: 120px;
+	top: 40px;
+	left: 480px;
+}
+
+#seconds {
+	position: absolute;
+	float: left;
+	font-size: 120px;
+	top: 150px;
+	left: 480px;
+}
+
+#meridiem {
+	position: absolute;
+	float: left;
+	font-size: 120px;
+	top: 80px;
+	left: 685px;
+}
+
