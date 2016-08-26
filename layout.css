@@ -21,7 +21,6 @@ body {
 #hours{
 	position: absolute;
 	padding-left: 60px;
-	color: white;
 	font-size: 230px;
 	bottom: -125px;
 }
